@@ -1,0 +1,17 @@
+<html>
+    <head>
+    </head>
+    <body>
+       <% include partials/includemenu.ejs %>
+       <BR><BR><BR>
+        <p>
+            <medium> <%= person %>, Here you are in the city <%= cityName %></medium>
+        </p>   
+        <p>
+            <small>
+                <%= cityName %> : <%= tagline %>
+            </small>
+        </p>
+        <img src='/images/<%=cityName%>.jpg'></img>
+    </body>
+</html>

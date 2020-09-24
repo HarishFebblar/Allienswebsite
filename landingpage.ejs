@@ -1,0 +1,24 @@
+<html>
+    <head>
+    </head>
+    <body>
+       
+       <BR><BR><BR>
+        <h1 align = center> Welcome to to the transport Hub </h1>
+        <p>
+            <medium>Hi <%= welcomeMessage %>! Based on your interest, i will take you to a city</medium>
+        </p>
+        <form method="post" action="/toCity">
+            <p>What is your interest
+                <select required name= "interest" placeholder= "what is your interest" >
+                    <option value="history">History</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="finance">Business</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>       
+    </body>
+</html>
